@@ -1,0 +1,75 @@
+/* my name is prabhjot singh 
+   my student no. is 8980401 */
+
+   html{
+    height: 100%;
+   }
+body {
+    background-color:hsl(185, 95%, 48%); 
+    font-family: cursive;
+    font-size: 20px;
+    min-height: 100%; 
+    width: 1200px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+  }
+  aside { width: 250px;
+    float: right;
+    background-color: hsl(0, 39%, 50%);
+
+  }
+  main{
+    float: left;
+    width: 850px;
+    background-color: hsl(100, 39%, 50%);
+  }
+  #p1{
+    color: rgb(205, 36, 36);
+  }
+  #p2{
+    color: rgb(157, 97, 19);
+  }
+  header{
+    background-color: hsl(0, 26%, 66%);
+    padding: 20px;
+  }
+
+  
+  h2 {
+    color:#ff0000;
+    font: 30px;
+    width: 850px;
+    
+  }
+
+  .structural header,main,aside,footer {
+    border: 2px solid black;
+    padding: 4px;
+    margin: 4px;
+    height: fit-content;
+    
+  }
+  footer{
+    background-color: hsl(248, 53%, 58%);
+    clear: both;
+    text-align: center; /* Center the text in the footer */
+    font-weight: bold; /* make the text bold */
+    background-color: #f7e7d9; /* add colour to the  background */
+    padding: 20px 0; /* add a 20 px top and bottom padding in the footer tag  */
+    font-size: 20px;
+    margin-top: auto;
+    
+
+  }
+  a:hover{
+    color: #3cb371;
+  }
+  
+  
+  
+  /* 2.	Using the float property change the layout of the website to alter the normal flow by 
+  arranging the main and aside elements to be beside each other.  Hint you will need to set 
+  the width for these elements.  */
+
+  /* 3.	Add the header, main, aside and footer into a class called structural.  */
